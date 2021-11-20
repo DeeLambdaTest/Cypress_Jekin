@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.9910" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:36:23" tests="0" file="cypress\integration\examples\location.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Location" timestamp="2021-11-20T17:36:23" tests="3" time="11.9690" failures="2">
+    <testcase name="Location cy.hash() - get the current URL hash" time="0.5540" classname="cy.hash() - get the current URL hash">
+    </testcase>
+    <testcase name="Location cy.location() - get window.location" time="0.0000" classname="cy.location() - get window.location">
+      <failure message="Timed out retrying after 4000ms: expected &apos;https://example.cypress.io/commands/location&apos; to equal &apos;http://example.cypress.io/commands/location&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'https://example.cypress.io/commands/location' to equal 'http://example.cypress.io/commands/location'
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\examples\location.spec.js:112:32)]]></failure>
+    </testcase>
+    <testcase name="Location cy.url() - get the current URL" time="0.0000" classname="cy.url() - get the current URL">
+      <failure message="Timed out retrying after 4000ms: expected &apos;https://example.cypress.io/commands/location&apos; to equal &apos;http://example.cypress.io/commands/location&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'https://example.cypress.io/commands/location' to equal 'http://example.cypress.io/commands/location'
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\examples\location.spec.js:124:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

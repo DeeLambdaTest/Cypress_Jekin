@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.5490" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:37:42" tests="0" file="cypress\integration\examples\waiting.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Waiting" timestamp="2021-11-20T17:37:42" tests="2" time="9.5300" failures="0">
+    <testcase name="Waiting cy.wait() - wait for a specific amount of time" time="6.7280" classname="cy.wait() - wait for a specific amount of time">
+    </testcase>
+    <testcase name="Waiting cy.wait() - wait for a specific route" time="1.2550" classname="cy.wait() - wait for a specific route">
+    </testcase>
+  </testsuite>
+</testsuites>

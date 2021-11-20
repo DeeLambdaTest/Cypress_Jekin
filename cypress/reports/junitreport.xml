@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<testsuites failures="3" errors="0" tests="114">
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:37:42" tests="0" file="cypress\integration\examples\waiting.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Waiting" timestamp="2021-11-20T17:37:42" tests="2" time="9.5300" failures="0">
+    <testcase name="Waiting cy.wait() - wait for a specific amount of time" time="6.7280" classname="cy.wait() - wait for a specific amount of time"/>
+    <testcase name="Waiting cy.wait() - wait for a specific route" time="1.2550" classname="cy.wait() - wait for a specific route"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:36:00" tests="0" file="cypress\integration\examples\cookies.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Cookies" timestamp="2021-11-20T17:36:00" tests="5" time="4.3760" failures="0">
+    <testcase name="Cookies cy.getCookie() - get a browser cookie" time="0.7050" classname="cy.getCookie() - get a browser cookie"/>
+    <testcase name="Cookies cy.getCookies() - get browser cookies" time="0.4990" classname="cy.getCookies() - get browser cookies"/>
+    <testcase name="Cookies cy.setCookie() - set a browser cookie" time="0.4080" classname="cy.setCookie() - set a browser cookie"/>
+    <testcase name="Cookies cy.clearCookie() - clear a browser cookie" time="0.4630" classname="cy.clearCookie() - clear a browser cookie"/>
+    <testcase name="Cookies cy.clearCookies() - clear browser cookies" time="0.4440" classname="cy.clearCookies() - clear browser cookies"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:35:55" tests="0" file="cypress\integration\examples\connectors.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Connectors" timestamp="2021-11-20T17:35:55" tests="4" time="0.0000" failures="0">
+    <testcase name="Connectors .each() - iterate over an array of elements" time="0.7070" classname=".each() - iterate over an array of elements"/>
+    <testcase name="Connectors .its() - get properties on the current subject" time="0.3170" classname=".its() - get properties on the current subject"/>
+    <testcase name="Connectors .invoke() - invoke a function on the current subject" time="0.2860" classname=".invoke() - invoke a function on the current subject"/>
+    <testcase name="Connectors .spread() - spread an array as individual args to callback function" time="0.3190" classname=".spread() - spread an array as individual args to callback function"/>
+  </testsuite>
+  <testsuite name=".then()" timestamp="2021-11-20T17:35:58" tests="4" time="1.2680" failures="0">
+    <testcase name="Connectors .then() invokes a callback function with the current subject" time="0.3190" classname="invokes a callback function with the current subject"/>
+    <testcase name="Connectors .then() yields the returned value to the next command" time="0.2740" classname="yields the returned value to the next command"/>
+    <testcase name="Connectors .then() yields the original subject without return" time="0.3070" classname="yields the original subject without return"/>
+    <testcase name="Connectors .then() yields the value yielded by the last Cypress command inside" time="0.3180" classname="yields the value yielded by the last Cypress command inside"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:35:41" tests="0" file="cypress\integration\examples\aliasing.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Aliasing" timestamp="2021-11-20T17:35:41" tests="2" time="4.1390" failures="0">
+    <testcase name="Aliasing .as() - alias a DOM element for later use" time="0.9110" classname=".as() - alias a DOM element for later use"/>
+    <testcase name="Aliasing .as() - alias a route for later use" time="1.6280" classname=".as() - alias a route for later use"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:36:14" tests="0" file="cypress\integration\examples\files.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Files" timestamp="2021-11-20T17:36:14" tests="4" time="4.3630" failures="0">
+    <testcase name="Files cy.fixture() - load a fixture" time="0.8350" classname="cy.fixture() - load a fixture"/>
+    <testcase name="Files cy.fixture() or require - load a fixture" time="0.3660" classname="cy.fixture() or require - load a fixture"/>
+    <testcase name="Files cy.readFile() - read file contents" time="0.3100" classname="cy.readFile() - read file contents"/>
+    <testcase name="Files cy.writeFile() - write to a file" time="1.1200" classname="cy.writeFile() - write to a file"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:37:05" tests="0" file="cypress\integration\examples\querying.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Querying" timestamp="2021-11-20T17:37:05" tests="5" time="4.6020" failures="0">
+    <testcase name="Querying cy.get() - query DOM elements" time="0.7960" classname="cy.get() - query DOM elements"/>
+    <testcase name="Querying cy.contains() - query DOM elements with matching content" time="0.3280" classname="cy.contains() - query DOM elements with matching content"/>
+    <testcase name="Querying .within() - query DOM elements within a specific element" time="0.3320" classname=".within() - query DOM elements within a specific element"/>
+    <testcase name="Querying cy.root() - query the root DOM element" time="0.3330" classname="cy.root() - query the root DOM element"/>
+    <testcase name="Querying best practices - selecting elements" time="0.9500" classname="best practices - selecting elements"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:36:37" tests="0" file="cypress\integration\examples\misc.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Misc" timestamp="2021-11-20T17:36:37" tests="4" time="0.0000" failures="0">
+    <testcase name="Misc .end() - end the command chain" time="0.8550" classname=".end() - end the command chain"/>
+    <testcase name="Misc cy.exec() - execute a system command" time="0.4010" classname="cy.exec() - execute a system command"/>
+    <testcase name="Misc cy.focused() - get the DOM element that has focus" time="0.5470" classname="cy.focused() - get the DOM element that has focus"/>
+    <testcase name="Misc cy.wrap() - wrap an object" time="0.3170" classname="cy.wrap() - wrap an object"/>
+  </testsuite>
+  <testsuite name="Cypress.Screenshot" timestamp="2021-11-20T17:36:41" tests="2" time="2.9980" failures="0">
+    <testcase name="Misc Cypress.Screenshot cy.screenshot() - take a screenshot" time="2.6320" classname="cy.screenshot() - take a screenshot"/>
+    <testcase name="Misc Cypress.Screenshot Cypress.Screenshot.defaults() - change default config of screenshots" time="0.3410" classname="Cypress.Screenshot.defaults() - change default config of screenshots"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:37:53" tests="0" file="cypress\integration\examples\window.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Window" timestamp="2021-11-20T17:37:53" tests="3" time="3.2870" failures="0">
+    <testcase name="Window cy.window() - get the global window object" time="0.8940" classname="cy.window() - get the global window object"/>
+    <testcase name="Window cy.document() - get the document object" time="0.3130" classname="cy.document() - get the document object"/>
+    <testcase name="Window cy.title() - get the title" time="0.2780" classname="cy.title() - get the title"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:36:46" tests="0" file="cypress\integration\examples\navigation.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Navigation" timestamp="2021-11-20T17:36:46" tests="3" time="5.5040" failures="1">
+    <testcase name="Navigation cy.go() - go back or forward in the browser's history" time="1.6560" classname="cy.go() - go back or forward in the browser's history"/>
+    <testcase name="Navigation cy.reload() - reload the page" time="0.7530" classname="cy.reload() - reload the page"/>
+    <testcase name="Navigation cy.visit() - visit a remote url" time="0.0000" classname="cy.visit() - visit a remote url">
+      <failure message="`cy.visit()` failed because you are attempting to visit a URL that is of a different origin.
+
+The new URL is considered a different origin because the following parts of the URL are different:
+
+  &gt; protocol
+
+You may only `cy.visit()` same-origin URLs within a single test.
+
+The previous URL you visited was:
+
+  &gt; 'https://example.cypress.io'
+
+You're attempting to visit this URL:
+
+  &gt; 'http://example.cypress.io'
+
+You may need to restructure some of your test code to avoid this problem.
+
+https://on.cypress.io/cannot-visit-different-origin-domain" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed because you are attempting to visit a URL that is of a different origin.
+
+The new URL is considered a different origin because the following parts of the URL are different:
+
+  > protocol
+
+You may only `cy.visit()` same-origin URLs within a single test.
+
+The previous URL you visited was:
+
+  > 'https://example.cypress.io'
+
+You're attempting to visit this URL:
+
+  > 'http://example.cypress.io'
+
+You may need to restructure some of your test code to avoid this problem.
+
+https://on.cypress.io/cannot-visit-different-origin-domain
+    at cannotVisitDifferentOrigin (https://example.cypress.io/__cypress/runner/cypress_runner.js:156963:13)
+    at go (https://example.cypress.io/__cypress/runner/cypress_runner.js:157712:18)
+    at visit (https://example.cypress.io/__cypress/runner/cypress_runner.js:157900:16)
+    at Context.visit (https://example.cypress.io/__cypress/runner/cypress_runner.js:157903:14)
+From Your Spec Code:
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\examples\navigation.spec.js:180:8)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:36:19" tests="0" file="cypress\integration\examples\local_storage.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Local Storage" timestamp="2021-11-20T17:36:19" tests="1" time="2.5060" failures="0">
+    <testcase name="Local Storage cy.clearLocalStorage() - clear all data in local storage" time="1.0030" classname="cy.clearLocalStorage() - clear all data in local storage"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:37:35" tests="0" file="cypress\integration\examples\viewport.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Viewport" timestamp="2021-11-20T17:37:35" tests="1" time="5.4200" failures="0">
+    <testcase name="Viewport cy.viewport() - set the viewport size and dimension" time="3.7600" classname="cy.viewport() - set the viewport size and dimension"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:37:28" tests="0" file="cypress\integration\examples\utilities.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Utilities" timestamp="2021-11-20T17:37:28" tests="5" time="5.3500" failures="0">
+    <testcase name="Utilities Cypress._ - call a lodash method" time="1.0070" classname="Cypress._ - call a lodash method"/>
+    <testcase name="Utilities Cypress.$ - call a jQuery method" time="0.4500" classname="Cypress.$ - call a jQuery method"/>
+    <testcase name="Utilities Cypress.Blob - blob utilities and base64 string conversion" time="0.8320" classname="Cypress.Blob - blob utilities and base64 string conversion"/>
+    <testcase name="Utilities Cypress.minimatch - test out glob patterns against strings" time="0.3060" classname="Cypress.minimatch - test out glob patterns against strings"/>
+    <testcase name="Utilities Cypress.Promise - instantiate a bluebird promise" time="1.2820" classname="Cypress.Promise - instantiate a bluebird promise"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:35:17" tests="0" file="cypress\integration\examples\actions.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Actions" timestamp="2021-11-20T17:35:17" tests="14" time="22.0300" failures="0">
+    <testcase name="Actions .type() - type into a DOM element" time="6.3450" classname=".type() - type into a DOM element"/>
+    <testcase name="Actions .focus() - focus on a DOM element" time="0.4170" classname=".focus() - focus on a DOM element"/>
+    <testcase name="Actions .blur() - blur off a DOM element" time="0.7110" classname=".blur() - blur off a DOM element"/>
+    <testcase name="Actions .clear() - clears an input or textarea element" time="0.8650" classname=".clear() - clears an input or textarea element"/>
+    <testcase name="Actions .submit() - submit a form" time="0.6590" classname=".submit() - submit a form"/>
+    <testcase name="Actions .click() - click on a DOM element" time="2.5940" classname=".click() - click on a DOM element"/>
+    <testcase name="Actions .dblclick() - double click on a DOM element" time="0.4950" classname=".dblclick() - double click on a DOM element"/>
+    <testcase name="Actions .rightclick() - right click on a DOM element" time="0.4190" classname=".rightclick() - right click on a DOM element"/>
+    <testcase name="Actions .check() - check a checkbox or radio element" time="1.2670" classname=".check() - check a checkbox or radio element"/>
+    <testcase name="Actions .uncheck() - uncheck a checkbox element" time="1.2220" classname=".uncheck() - uncheck a checkbox element"/>
+    <testcase name="Actions .select() - select an option in a &lt;select&gt; element" time="1.2770" classname=".select() - select an option in a &lt;select&gt; element"/>
+    <testcase name="Actions .scrollIntoView() - scroll an element into view" time="0.4060" classname=".scrollIntoView() - scroll an element into view"/>
+    <testcase name="Actions .trigger() - trigger an event on a DOM element" time="0.3630" classname=".trigger() - trigger an event on a DOM element"/>
+    <testcase name="Actions cy.scrollTo() - scroll the window or element to a position" time="2.3360" classname="cy.scrollTo() - scroll the window or element to a position"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:37:10" tests="0" file="cypress\integration\examples\spies_stubs_clocks.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Spies, Stubs, and Clock" timestamp="2021-11-20T17:37:10" tests="7" time="5.9890" failures="0">
+    <testcase name="Spies, Stubs, and Clock cy.spy() - wrap a method in a spy" time="0.5640" classname="cy.spy() - wrap a method in a spy"/>
+    <testcase name="Spies, Stubs, and Clock cy.spy() retries until assertions pass" time="2.5360" classname="cy.spy() retries until assertions pass"/>
+    <testcase name="Spies, Stubs, and Clock cy.stub() - create a stub and/or replace a function with stub" time="0.2750" classname="cy.stub() - create a stub and/or replace a function with stub"/>
+    <testcase name="Spies, Stubs, and Clock cy.clock() - control time in the browser" time="0.4090" classname="cy.clock() - control time in the browser"/>
+    <testcase name="Spies, Stubs, and Clock cy.tick() - move time in the browser" time="0.5110" classname="cy.tick() - move time in the browser"/>
+    <testcase name="Spies, Stubs, and Clock cy.stub() matches depending on arguments" time="0.0360" classname="cy.stub() matches depending on arguments"/>
+    <testcase name="Spies, Stubs, and Clock matches call arguments using Sinon matchers" time="0.0460" classname="matches call arguments using Sinon matchers"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:37:18" tests="0" file="cypress\integration\examples\traversal.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Traversal" timestamp="2021-11-20T17:37:18" tests="18" time="8.1690" failures="0">
+    <testcase name="Traversal .children() - get child DOM elements" time="0.7130" classname=".children() - get child DOM elements"/>
+    <testcase name="Traversal .closest() - get closest ancestor DOM element" time="0.3100" classname=".closest() - get closest ancestor DOM element"/>
+    <testcase name="Traversal .eq() - get a DOM element at a specific index" time="0.3550" classname=".eq() - get a DOM element at a specific index"/>
+    <testcase name="Traversal .filter() - get DOM elements that match the selector" time="0.3280" classname=".filter() - get DOM elements that match the selector"/>
+    <testcase name="Traversal .find() - get descendant DOM elements of the selector" time="0.3330" classname=".find() - get descendant DOM elements of the selector"/>
+    <testcase name="Traversal .first() - get first DOM element" time="0.3480" classname=".first() - get first DOM element"/>
+    <testcase name="Traversal .last() - get last DOM element" time="0.2900" classname=".last() - get last DOM element"/>
+    <testcase name="Traversal .next() - get next sibling DOM element" time="0.3070" classname=".next() - get next sibling DOM element"/>
+    <testcase name="Traversal .nextAll() - get all next sibling DOM elements" time="0.3240" classname=".nextAll() - get all next sibling DOM elements"/>
+    <testcase name="Traversal .nextUntil() - get next sibling DOM elements until next el" time="0.2830" classname=".nextUntil() - get next sibling DOM elements until next el"/>
+    <testcase name="Traversal .not() - remove DOM elements from set of DOM elements" time="0.3180" classname=".not() - remove DOM elements from set of DOM elements"/>
+    <testcase name="Traversal .parent() - get parent DOM element from DOM elements" time="0.3330" classname=".parent() - get parent DOM element from DOM elements"/>
+    <testcase name="Traversal .parents() - get parent DOM elements from DOM elements" time="0.3020" classname=".parents() - get parent DOM elements from DOM elements"/>
+    <testcase name="Traversal .parentsUntil() - get parent DOM elements from DOM elements until el" time="0.3390" classname=".parentsUntil() - get parent DOM elements from DOM elements until el"/>
+    <testcase name="Traversal .prev() - get previous sibling DOM element" time="0.3040" classname=".prev() - get previous sibling DOM element"/>
+    <testcase name="Traversal .prevAll() - get all previous sibling DOM elements" time="0.3190" classname=".prevAll() - get all previous sibling DOM elements"/>
+    <testcase name="Traversal .prevUntil() - get all previous sibling DOM elements until el" time="0.3380" classname=".prevUntil() - get all previous sibling DOM elements until el"/>
+    <testcase name="Traversal .siblings() - get all sibling DOM elements" time="0.3220" classname=".siblings() - get all sibling DOM elements"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:36:53" tests="0" file="cypress\integration\examples\network_requests.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Network Requests" timestamp="2021-11-20T17:36:53" tests="6" time="9.8120" failures="0">
+    <testcase name="Network Requests cy.request() - make an XHR request" time="1.2520" classname="cy.request() - make an XHR request"/>
+    <testcase name="Network Requests cy.request() - verify response using BDD syntax" time="1.3250" classname="cy.request() - verify response using BDD syntax"/>
+    <testcase name="Network Requests cy.request() with query parameters" time="0.9080" classname="cy.request() with query parameters"/>
+    <testcase name="Network Requests cy.request() - pass result to the second request" time="1.3000" classname="cy.request() - pass result to the second request"/>
+    <testcase name="Network Requests cy.request() - save response in the shared test context" time="1.6300" classname="cy.request() - save response in the shared test context"/>
+    <testcase name="Network Requests cy.intercept() - route responses to matching requests" time="2.0920" classname="cy.intercept() - route responses to matching requests"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:36:06" tests="0" file="cypress\integration\examples\cypress_api.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Cypress.Commands" timestamp="2021-11-20T17:36:06" tests="1" time="2.1720" failures="0">
+    <testcase name="Cypress.Commands .add() - create a custom command" time="0.6910" classname=".add() - create a custom command"/>
+  </testsuite>
+  <testsuite name="Cypress.Cookies" timestamp="2021-11-20T17:36:08" tests="3" time="1.0090" failures="0">
+    <testcase name="Cypress.Cookies .debug() - enable or disable debugging" time="0.3450" classname=".debug() - enable or disable debugging"/>
+    <testcase name="Cypress.Cookies .preserveOnce() - preserve cookies by key" time="0.3130" classname=".preserveOnce() - preserve cookies by key"/>
+    <testcase name="Cypress.Cookies .defaults() - set defaults for all cookies" time="0.3270" classname=".defaults() - set defaults for all cookies"/>
+  </testsuite>
+  <testsuite name="Cypress.arch" timestamp="2021-11-20T17:36:09" tests="1" time="0.3180" failures="0">
+    <testcase name="Cypress.arch Get CPU architecture name of underlying OS" time="0.3140" classname="Get CPU architecture name of underlying OS"/>
+  </testsuite>
+  <testsuite name="Cypress.config()" timestamp="2021-11-20T17:36:10" tests="1" time="0.3450" failures="0">
+    <testcase name="Cypress.config() Get and set configuration options" time="0.3380" classname="Get and set configuration options"/>
+  </testsuite>
+  <testsuite name="Cypress.dom" timestamp="2021-11-20T17:36:10" tests="1" time="0.3220" failures="0">
+    <testcase name="Cypress.dom .isHidden() - determine if a DOM element is hidden" time="0.3090" classname=".isHidden() - determine if a DOM element is hidden"/>
+  </testsuite>
+  <testsuite name="Cypress.env()" timestamp="2021-11-20T17:36:10" tests="1" time="0.3030" failures="0">
+    <testcase name="Cypress.env() Get environment variables" time="0.2980" classname="Get environment variables"/>
+  </testsuite>
+  <testsuite name="Cypress.log" timestamp="2021-11-20T17:36:11" tests="1" time="0.3340" failures="0">
+    <testcase name="Cypress.log Control what is printed to the Command Log" time="0.3110" classname="Control what is printed to the Command Log"/>
+  </testsuite>
+  <testsuite name="Cypress.platform" timestamp="2021-11-20T17:36:11" tests="1" time="0.2990" failures="0">
+    <testcase name="Cypress.platform Get underlying OS name" time="0.2870" classname="Get underlying OS name"/>
+  </testsuite>
+  <testsuite name="Cypress.version" timestamp="2021-11-20T17:36:11" tests="1" time="0.3390" failures="0">
+    <testcase name="Cypress.version Get current version of Cypress being run" time="0.3170" classname="Get current version of Cypress being run"/>
+  </testsuite>
+  <testsuite name="Cypress.spec" timestamp="2021-11-20T17:36:12" tests="1" time="0.3560" failures="0">
+    <testcase name="Cypress.spec Get current spec information" time="0.3430" classname="Get current spec information"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:35:46" tests="0" file="cypress\integration\examples\assertions.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Assertions" timestamp="2021-11-20T17:35:46" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Implicit Assertions" timestamp="2021-11-20T17:35:46" tests="2" time="2.8560" failures="0">
+    <testcase name="Assertions Implicit Assertions .should() - make an assertion about the current subject" time="0.7250" classname=".should() - make an assertion about the current subject"/>
+    <testcase name="Assertions Implicit Assertions .and() - chain multiple assertions together" time="0.3130" classname=".and() - chain multiple assertions together"/>
+  </testsuite>
+  <testsuite name="Explicit Assertions" timestamp="2021-11-20T17:35:49" tests="7" time="3.9970" failures="0">
+    <testcase name="Assertions Explicit Assertions expect - make an assertion about a specified subject" time="0.3460" classname="expect - make an assertion about a specified subject"/>
+    <testcase name="Assertions Explicit Assertions pass your own callback function to should()" time="0.3510" classname="pass your own callback function to should()"/>
+    <testcase name="Assertions Explicit Assertions finds element by class name regex" time="0.3530" classname="finds element by class name regex"/>
+    <testcase name="Assertions Explicit Assertions can throw any error" time="0.3630" classname="can throw any error"/>
+    <testcase name="Assertions Explicit Assertions matches unknown text between two elements" time="0.3430" classname="matches unknown text between two elements"/>
+    <testcase name="Assertions Explicit Assertions assert - assert shape of an object" time="0.3360" classname="assert - assert shape of an object"/>
+    <testcase name="Assertions Explicit Assertions retries the should callback until assertions pass" time="1.8400" classname="retries the should callback until assertions pass"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:36:23" tests="0" file="cypress\integration\examples\location.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Location" timestamp="2021-11-20T17:36:23" tests="3" time="11.9690" failures="2">
+    <testcase name="Location cy.hash() - get the current URL hash" time="0.5540" classname="cy.hash() - get the current URL hash"/>
+    <testcase name="Location cy.location() - get window.location" time="0.0000" classname="cy.location() - get window.location">
+      <failure message="Timed out retrying after 4000ms: expected 'https://example.cypress.io/commands/location' to equal 'http://example.cypress.io/commands/location'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'https://example.cypress.io/commands/location' to equal 'http://example.cypress.io/commands/location'
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\examples\location.spec.js:112:32)]]></failure>
+    </testcase>
+    <testcase name="Location cy.url() - get the current URL" time="0.0000" classname="cy.url() - get the current URL">
+      <failure message="Timed out retrying after 4000ms: expected 'https://example.cypress.io/commands/location' to equal 'http://example.cypress.io/commands/location'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'https://example.cypress.io/commands/location' to equal 'http://example.cypress.io/commands/location'
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\examples\location.spec.js:124:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

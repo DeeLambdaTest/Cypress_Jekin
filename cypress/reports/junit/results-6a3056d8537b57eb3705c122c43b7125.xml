@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.5290" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-11-20T17:36:46" tests="0" file="cypress\integration\examples\navigation.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Navigation" timestamp="2021-11-20T17:36:46" tests="3" time="5.5040" failures="1">
+    <testcase name="Navigation cy.go() - go back or forward in the browser&apos;s history" time="1.6560" classname="cy.go() - go back or forward in the browser&apos;s history">
+    </testcase>
+    <testcase name="Navigation cy.reload() - reload the page" time="0.7530" classname="cy.reload() - reload the page">
+    </testcase>
+    <testcase name="Navigation cy.visit() - visit a remote url" time="0.0000" classname="cy.visit() - visit a remote url">
+      <failure message="`cy.visit()` failed because you are attempting to visit a URL that is of a different origin.
+
+The new URL is considered a different origin because the following parts of the URL are different:
+
+  &gt; protocol
+
+You may only `cy.visit()` same-origin URLs within a single test.
+
+The previous URL you visited was:
+
+  &gt; &apos;https://example.cypress.io&apos;
+
+You&apos;re attempting to visit this URL:
+
+  &gt; &apos;http://example.cypress.io&apos;
+
+You may need to restructure some of your test code to avoid this problem.
+
+https://on.cypress.io/cannot-visit-different-origin-domain" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed because you are attempting to visit a URL that is of a different origin.
+
+The new URL is considered a different origin because the following parts of the URL are different:
+
+  > protocol
+
+You may only `cy.visit()` same-origin URLs within a single test.
+
+The previous URL you visited was:
+
+  > 'https://example.cypress.io'
+
+You're attempting to visit this URL:
+
+  > 'http://example.cypress.io'
+
+You may need to restructure some of your test code to avoid this problem.
+
+https://on.cypress.io/cannot-visit-different-origin-domain
+    at cannotVisitDifferentOrigin (https://example.cypress.io/__cypress/runner/cypress_runner.js:156963:13)
+    at go (https://example.cypress.io/__cypress/runner/cypress_runner.js:157712:18)
+    at visit (https://example.cypress.io/__cypress/runner/cypress_runner.js:157900:16)
+    at Context.visit (https://example.cypress.io/__cypress/runner/cypress_runner.js:157903:14)
+From Your Spec Code:
+    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\examples\navigation.spec.js:180:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
